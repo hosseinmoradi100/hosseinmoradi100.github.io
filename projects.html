@@ -58,73 +58,20 @@
 
     <div class="row mx-3">
       <div class="col-sm-12">
-        <h1>Projects</h1>
-        <p>My recent work has involved {{things I've done}}.</p>
+        <h1>Current Grants</h1>
       </div>
       <!-- col-sm-12 -->
 
-      <div class="col-sm-10 offset-sm-1">
-        <form id="search-box">
-          <div class="form-group">
-            <div class="input-group border-0">
-              <div class="input-group-prepend">
-                <span class="input-group-text border-0"><i class="fa fa-search fa-fw fa-2x graphite"></i></span>
-              </div>
-              <input type="text" class="form-control form-control-lg" aria-label="" name="brainstorm-search" id="search-input" placeholder="Search projects">
-              <div class="input-group-append" id="search-refresh-button">
-                <span class="input-group-text border-0"><i class="fa fa-sync-alt opacity-half bright-blue fa-fw fa-2x pointer sm-del"></i></span>
-              </div>
-            </div>
-          </div>
-        </form>
-      </div>
-      <!-- .col-sm-8 -->
+<li> Assessment of vaccine Decision-Making Factors. South Dakota Department of Health Immunization Program. \textbf{Key Personnel - Statistician}. \$87,861. January 2024 - December 2024. (My spending authority is 0.5 summer salary + 10\% of regular time).
+<li> Developing explainable machine learning and computational methods for identifying geographic and racial disparities in end stage renal disease. \textbf{Co-PI}. NIH. \$1,091,316. September 2023 - August 2024. (My spending authority is 1 month summer salary + 20\% of regular time + 1 Ph.D. + 1 M.sc. GRA for the duration of the grant).
+<li> Collaborative Research: RII Track-2 FEC: STORM: Data-Driven Approaches for Secure Electric Grids in Communities Disproportionately Impacted by Climate Change. \$750,000. \textbf{Senior Personnel}. NSF. July 2023 - June 2027. (My spending authority is 0.5 month summer salary  + one Ph.D. GRA for the duration of the grant).
+<li> DOE (Renewal-Phase III): Development and Validation of Models to Assess Dynamic Response of Converter‐Dominated Power Systems across Multiple Spatiotemporal Scales. (Lead Institution: University of Alaska Fairbanks). \textbf{Co-PI}. \$291,211; 8/2023 - 8/2025. (My spending authority is 0.5 month summer salary).% + one Ph.D. GRA for the duration of the grant).
+<li> Administration and Reporting for the 2023 SD Youth Tobacco Survey. \$128,020. \textbf{Statistician}. South Dakota Department of Health, partial flow-through Centers for Disease Control and Prevention. 2023-2024. (My spending authority is 0.5 month summer salary + 8\% of regular time for the duration of the grant).
+<li> Palliative Care Use Among American Indians and Alaska Native with End-Stage Renal Disease Caused by Diabetes. \$55,688. \textbf{Key Personnel - Statistician}. NIH. January 2023 - May 2024. (My spending authority is 1 month summer salary).
+<li> Climate-Smart Commodities GEVO Conservation Practice Adoption. \textbf{Co-PI}. USDA. \$1,862,199. September 2023 - December 2027.  (My spending authority is 1 month summer salary + one GRA for the duration of the grant).
+<li> DSFAS-AI: Leveraging data science, remote sensing, and open source tools to inform grassland management decisions for livestock producers. \textbf{Co-PI}. USDA. \$649,948; 06/2022 -- 06/2026. (My spending authority is 0.5 month summer salary + one Ph.D. GRA for the duration of the grant).
+<li> Pre-pubertal replacement gilt selection through biological indicators. USDA-NIFA-AFRI. \textbf{Co-PI}. \$607,830; 07/2021--06/2026. (My spending authority is  0.4 month summer salary).
 
-      <div class="col-sm-10 offset-sm-1 text-center" id="filter-buttons">
-
-        <!-- Filter buttons -->
-        <button id="all" class="btn btn-sm btn-primary mr-3 active">
-          All
-        </button>
-        <button id="type1" class="btn btn-sm btn-primary mr-3">
-          Web
-        </button>
-        <button id="type2" class="btn btn-sm btn-primary mr-3">
-          Design
-        </button>
-        <button id="type3" class="btn btn-sm btn-primary mr-3">
-          Games
-        </button>
-        <button id="type4" class="btn btn-sm btn-primary mr-3">
-          Tutorials
-        </button>
-
-
-      </div>
-      <!-- col-sm-10 -->
-    </div>
-    <!-- .row -->
-
-    <div class="row" id="projects-div">
-
-      <!-- Write the cards into the page -->
-      <script id="all-the-projects" type="text/template">
-
-        {{#projects}}
-          <div class="card-container col-sm-12 col-md-6 col-lg-4 col-xl-4">
-            <div class="card shadow-sm {{{type}}}" data-url="{{{link}}}">
-              <img src="{{{image}}}" class="card-img-top" alt="...">
-              <div class="card-body border-top" data-resource-type="{{{type}}}">
-                <p class="text-center card-action"><span>{{{icon}}}</span></p>
-                <h5 class="project-title">{{name}}</h5>
-                {{description}}
-              </div>
-            </div>
-          </div>
-        {{/projects}}
-      </script>
-
-    </div>
     <!-- .row -->
 
   </div>
